@@ -40,6 +40,7 @@ public class JdbcSelectSample {
 					System.out.println(resultSet.getString("email"));
 					System.out.println(resultSet.getString("name"));
 					System.out.println(resultSet.getDate("created_at"));
+					System.out.println(resultSet.getInt("money"));
 				}
 			}
 
